@@ -1,0 +1,58 @@
+payment, .payment-form {
+  position: relative;
+  display: block;
+
+  padding: 15px 20px;
+  max-width: 300px;
+  overflow: hidden;
+
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-sizing: border-box;
+}
+
+payment-form label, .payment-form label {
+  display: block;
+  padding: 5px 0;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+payment-form input, .payment-form input {
+  padding: 5px 5px;
+
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-sizing: border-box;
+}
+
+payment-form .number input, .payment-form .number input {
+  padding: 7px 40px 7px 7px;
+  width: 100%;
+}
+
+payment-form .expiry input, payment-form .cvc input {
+  width: 45px;
+}
+
+payment-form .expiry em {
+  display: none;
+}
+
+payment-form .cvc,
+.payment-form .cvc {
+  float: right;
+  text-align: right;
+}
+
+payment-form .expiry,
+.payment-form .expiry {
+  float: left;
+}
+
+payment-form .message,
+.payment-form .message {
+  display: block;
+}
